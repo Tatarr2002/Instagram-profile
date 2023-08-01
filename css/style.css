@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.container{
+  width: 100%;
+}
+
+.container .phone{
+    width: 400px;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, .05);
+    min-height: 100vh;
+}
+
+/* footer  */
+
+.footer{
+ width: 400px;
+ background-color: white;
+ position: fixed;
+ bottom: 0px;
+ padding: 10px 20px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ z-index: 0;
+}
+
+.footer a{
+    color: #333;
+    font-size: 1.5em;
+
+}
+
+.footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* head nav  */
+
+.head-nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  /* position: fixed; */
+  width: 400px;
+  background-color: white;
+  position: fixed;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+
+.head-nav .right i{
+  font-size: 1.5em;
+}
+
+
+
+.head-nav .left span{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    margin-right: 5px;
+
+}
+
+.head-nav .left i{
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* profile  */
+
+.profile{
+    
+    padding: 73px 15px 15px 15px;
+}
+
+.profile .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.profile .info .image{
+    position: relative;
+}
+
+.profile .info .image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.profile .info .image a{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: #3498db;
+    font-size: 1.5em;
+}
+
+
+
+.profile .info .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.profile .info .item .number{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile .info .item .title{
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* caption  */
+
+.caption{
+ display: flex;
+ flex-direction: column;
+ padding: 0px 29px;
+}
+
+.caption .id{
+    margin-top: -10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.caption .tag a{
+    margin-left: -15px;
+}
+
+/* edit profile  */
+
+.edite-b{
+ 
+  text-align: center;
+  padding: 12px 15px;
+}
+
+.edite-b a{
+    display: inline-block;
+    border: 1px solid rgb(84, 82, 82);
+    border-radius: 15px;
+    width: 100%;
+    padding: 3px;
+    font-size: .9em;
+    background-color: white;
+}
+
+/* highlights  */
+
+.highlights{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2px 15px 15px 20px;
+    border-bottom: 1px solid #7f8c8d;
+    
+
+}
+
+.highlights .add-highlight{
+    margin-right: 20px;
+}
+
+.highlights .add-highlight .add{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: white;
+   border: 1px solid rgb(84, 82, 82);
+   font-size: 2em;
+    
+}
+
+.highlights .add-highlight span{
+    font-size: 1em;
+}
+
+.highlights .story-highlight{
+
+}
+
+.highlights .story-highlight .img{
+ border: 2px solid #2980b9;
+ border-radius: 50%;
+ align-items: center; 
+ 
+}
+
+.highlights .story-highlight .img img{
+    display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 2px;
+
+}
+
+.highlights .story-highlight span{
+ font-size: 1em;
+}
+
+/* navigation  */
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #dfe4ea;
+}
+
+.navigation div{
+  flex: 1;
+  
+}
+
+.navigation .nav-active{
+    border-bottom: 2px solid #2980b9;
+}
+
+.navigation .nav-active a i{
+    color: #2980b9;
+    
+  }
+
+.navigation div a{
+    font-size: 1.5em;
+    
+}
+
+.navigation div a i{
+    color: #555;
+    padding: 15px;
+}
+
+/* image-container  */
+
+.image-container{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ gap: 3px;
+ 
+}
+
+.image-container img{
+    width: 97px;
+    height: 97px;
+    
+}
+
+.imge2{
+    min-height: 600px;
+}
